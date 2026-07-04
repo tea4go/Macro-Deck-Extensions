@@ -11,7 +11,7 @@
   >选择包 ID 时，请确保遵循以下规则：
   >- 不能包含空格
   >- 使用格式：你的名称.你的扩展名称
-      
+
    示例：SuchByte.MacroDeckcolorfulgenericicons
 - 你的扩展需要一个 ExtensionManifest.json 文件，其内容应如下所示：
 ```json
@@ -67,7 +67,7 @@ SomeotherIcon.png
 3. 点击 `Add/Update Extension` 工作流
 
    > **注意：** 如果在移动端，请先点击 `Select workflow` 按钮
-   
+
 4. 点击 `Run workflow` 按钮
 5. 填写详细信息，然后点击字段下方绿色的 `Run workflow` 按钮
 6. 在你的主分支上，向上游仓库创建一个 PR
