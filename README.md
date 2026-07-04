@@ -88,7 +88,7 @@ SomeotherIcon.png
     "Font.Size":  12.0,
     "Font.Bold":  false,
 ```
-
-4.以上功能的修改可以参考项目C:\MyWork\GitCode\Macro-Deck-Windows-Utils-Plugin，里面已经做了同样的改造。
-5.每一个改造完成后，就直接编译，编译成功就提交代码。
-6.直到所有的功能都完成，才能退出。
+4.需要编写构建与运行run_win.ps1脚本，同时配套run_win.bat可直接执行ps1。
+5.以上功能的修改可以参考项目C:\MyWork\GitCode\Macro-Deck-Windows-Utils-Plugin，里面已经做了同样的改造。
+6.每一个改造完成后，就直接编译，编译成功就提交代码。
+7.直到所有的功能都完成，才能退出。
