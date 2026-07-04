@@ -73,3 +73,22 @@ SomeotherIcon.png
 6. 在你的主分支上，向上游仓库创建一个 PR
   - 这是必须的，因为通过 Actions 的权限比 Web UI 更严格
 7. 你的扩展将自动进行校验和构建。之后，管理员将审核你的提交。
+
+### 需要针对本插件做以下修正
+1. 把所有的界面标签，改为国际化，支持中文与英文，
+
+2.本插件启动时读取主程序的配置C:\Users\Admin\AppData\Roaming\Macro Deck\config.json里的
+```
+"Language":  "Chinese"
+```
+
+3.把所有的界面的字体统一使用配置C:\Users\Admin\AppData\Roaming\Macro Deck\config.json里的
+```
+    "Font":  "微软雅黑 - Kelvin",
+    "Font.Size":  12.0,
+    "Font.Bold":  false,
+```
+
+4.以上功能的修改可以参考项目C:\MyWork\GitCode\Macro-Deck-Windows-Utils-Plugin，里面已经做了同样的改造。
+5.每一个改造完成后，就直接编译，编译成功就提交代码。
+6.直到所有的功能都完成，才能退出。
